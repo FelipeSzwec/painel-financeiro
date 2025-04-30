@@ -7,7 +7,7 @@ from datetime import datetime
 st.title("📋 Painel de Controle Financeiro dos Filiados")
 
 # Carrega a planilha
-df = pd.read_excel("Controle Financeiro/Ff.xlsx")
+df = pd.read_excel("Controle_Financeiro/Ff.xlsx")
 
 # Renomeia colunas
 df = df.rename(columns={
